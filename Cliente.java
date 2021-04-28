@@ -6,6 +6,16 @@ public class Cliente {
 
 	public Cliente() {}
 
+	public Cliente(int_numero, String_apellido, String_nombre) {
+
+	numero = _numero;
+	apellido = _apellido;
+	nombre = _nombre; 
+	
+	}	
+
+
+
 	public void setNumero(int numero) {
 	this.numero = numero;
 	
@@ -32,6 +42,42 @@ public class Cliente {
 	return this.nombre;
 	
 	}
+	
+	@override
+public String toString() {
+
+	return nombre + " " + apellido;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
